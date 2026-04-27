@@ -1,0 +1,12 @@
+[build]
+  publish = "we cooked/0909090-90-90-/stink of poop"
+
+[[redirects]]
+  from = "/"
+  to = "/html/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/index.html"
+  to = "/html/index.html"
+  status = 200
