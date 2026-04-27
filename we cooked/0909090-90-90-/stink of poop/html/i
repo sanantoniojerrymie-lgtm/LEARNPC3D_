@@ -14,7 +14,7 @@
     <div class="floating-bubble" data-tooltip="🛒 Market - Buy Components" aria-label="Go to Market">
       🖥️
     </div>
-<a href="Index.html"><img src="IMG/Logo.png" alt="3D Computer Logo" class="logo"></a>
+<a href="index.html"><img src="IMG/Logo.png" alt="3D Computer Logo" class="logo"></a>
 
 <h2 class="title">3D Component</h2>
 
