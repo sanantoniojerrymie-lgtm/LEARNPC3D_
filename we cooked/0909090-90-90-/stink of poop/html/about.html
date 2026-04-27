@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Learn PC 3D</title>
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSn9uK81kVKaPAXqQImCbWq6FlVd6L9o58DseXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<link rel="icon" href="IMG/logo.png" style= "width: 144px; height: 156px;">
+</head>
+<body> 
+    <div class="starfield-bg">
+        <canvas id="starfield-canvas"></canvas>
+    </div>
+
+    <div class="intro-loader">
+        <h1 class="name">About Learn PC 3D</h1>
+    </div>
+
+    <main class="content">
+        <a href="Index.html" class="logo">
+            <img src="IMG/Logo.png" alt="Learn PC 3D Logo">
+        </a>
+
+        <div class="top-nav">
+            <a href="Index.html" class="home-btn">Home</a>
+            <a href="inventory.html" class="inventory-btn">Components</a>
+            <a href="FAQs.html" class="faqs-btn">FAQs</a>
+        </div>
+
+        <div class="box">
+            <div class="home-content">
+                <div class="about-hero">
+                    <model-viewer src="./3d models/motherboard.glb" alt="Interactive 3D Motherboard Model" auto-rotate camera-controls shadow-intensity="1" environment-image="neutral" exposure="1" lighting="physical" id="about-model" class="model-container" style="width: 80%; height: 60vh; background: transparent;">
+                    </model-viewer>
+                    <p class="description-right"   
+                    data-text="The motherboard is the main circuit board that connects all computer components together, serving as the central hub for data transfer, power distribution, and system communication. Also known as the 'backbone' of the PC, it houses critical features like the CPU socket 
+                    (where the processor installs), multiple RAM slots for memory modules (DDR4/DDR5 support), PCIe lanes/slots for GPUs and storage, M.2 slots for NVMe SSDs, SATA ports for HDDs/SSDs, USB headers, power connectors, chipset 
+                    (north/southbridge for I/O), BIOS chip, VRM for CPU power delivery, fan headers, and onboard audio/network. Different form factors: ATX 
+                    (full-size), Micro-ATX (compact), Mini-ITX (small). Explore our interactive 3D model – rotate, zoom, pan to inspect every detail up close and understand how everything interconnects in a real PC build." 
+                    style= "height: 50vh; width: 439px; font-size: 13px;"></p>
+                </div> 
+
+                <section class="about-section">
+                    <h2>Welcome to Learn PC 3D</h2>
+                    <p>Learn PC 3D is your ultimate interactive platform for exploring computer hardware in stunning 3D. Whether you're a beginner learning the basics or an enthusiast building your dream PC, our site brings components to life with rotatable 3D models, detailed descriptions, educational videos, and easy search functionality.</p>
+                    <p>Founded with the mission to make PC hardware education accessible and engaging, we cover everything from CPUs, GPUs, motherboards, RAM, storage (SSDs/HDDs), PSUs, peripherals (keyboards, mice, monitors, audio devices), and more. No more confusing diagrams – interact with real 3D models just like the real thing! style= </p>
+                </section>
+
+                <section class="features-grid">
+                    <h2>Our Features</h2>
+                    <div class="grid">
+                        <div class="feature-card">
+                            <i class="fas fa-cube"></i>
+                            <h3>Interactive 3D Models</h3>
+                            <p>Rotate, zoom, and explore dozens of high-quality 3D models of PC components.</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-play-circle"></i>
+                            <h3>Educational Videos</h3>
+                            <p>Curated YouTube tutorials explaining how each component works.</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-search"></i>
+                            <h3>Smart Search</h3>
+                            <p>Quickly find components and previews across the entire inventory.</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-book-open"></i>
+                            <h3>Detailed Guides</h3>
+                            <p>In-depth descriptions, specs, and use cases for every hardware piece.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="team-section">
+                    <h2>Meet Our Team</h2>
+                    <div class="team-grid">
+                        <div class="team-card">
+                            <img src="IMG/convertico-nyick_64x64.png" alt="De guzman" class="team-icon">
+                            
+                            <p>Gathered detailed information</p>
+                        </div>
+                        <div class="team-card">
+                            <img src="IMG/convertico-kimjoun_48x48.png" alt="Sarah Patel" class="team-icon">
+                            <h3>Mercado, Paul Iverson L.</h3>
+                            <p>Information, Program.</p>
+                        </div>
+                        <div class="team-card">
+                            <img src="IMG/siena.png" alt="Mike Rodriguez" class="team-icon">
+                            <h3>Tonacao, Shienna Mae M.</h3>
+                            <p>Researched specifications, compatibility.</p>
+                        </div>
+                        <div class="team-card">
+                            <img src="IMG/convertico-luizjpg_64x64.png" alt="Francisco" class="team-icon">
+                            <h3>Francisco </h3>
+                            <div class="role">Programmer</div>
+                            <p> </p>
+                        </div>
+                        <div class="team-card">
+                            <img src="IMG/convertico-me_64x64.png" alt="San Antonio" class="team-icon">
+                            <h3>Jerrymie San Antpnio</h3>
+                            <div class="role">UI/UX Designer</div>
+                            <p>Full stack</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact-teaser">
+                    <h2>Get in Touch</h2>
+                    <p>Questions? Reach us at <a href="mailto:info@learnpc3d.com">info@learnpc3d.com</a> or +1 215 6556 5655. Located at 123 Tech Street.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:info@learnpc3d.com">info@learnpc3d.com</a></p>
+                <p>Phone: +1 215 6556 5655</p>
+                <p>Address: 123 Tech Street</p>
+            </div>
+            <div class="footer-content">
+                <h3>About Us</h3>
+                <ul class="list">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="FAQs.html">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                      <li><a href=""><img src="../icons/facebook-app-symbol.png" alt="Facebook" class="social-icon-img"></a></li>
+                    <li><a href=""><img src="../icons/twitter.png" alt="Twitter" class="social-icon-img"></a></li>
+                    <li><a href="#"><img src="../icons/instagram.png" alt="Instagram" class="social-icon-img"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&amp;copy; 2026 Learn PC 3D. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        const introLoader = document.querySelector('.intro-loader');
+        if (introLoader) {
+          setTimeout(() => introLoader.classList.add('fade-out'), 3000);
+        }
+
+        
+        const elements = [
+          '.logo',
+          '.top-nav',
+          '.about-hero model-viewer',
+          '.description-right',
+          '.about-section',
+          '.features-grid',
+          '.contact-teaser',
+          'footer'
+        ];
+
+        elements.forEach((selector, index) => {
+          setTimeout(() => {
+            const el = document.querySelector(selector);
+            if (el) {
+              el.style.opacity = '0';
+              el.style.transform = 'translateY(30px)';
+              el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+              el.style.animationDelay = '0s';
+              el.offsetHeight; // Trigger reflow
+              el.style.opacity = '1';
+              el.style.transform = 'translateY(0)';
+            }
+          }, 1000 + index * 200);
+        });
+        
+        const modelViewer = document.querySelector('#about-model');
+        if (modelViewer) {
+          modelViewer.addEventListener('load', () => {
+            modelViewer.style.animation = 'spinIn 2s ease-out';
+          });
+        }
+
+      });
+    </script>
+    <style>
+      
+      .about-hero model-viewer {
+        animation: modelFloat 4s ease-in-out infinite;
+      }
+      @keyframes spinIn {
+        0% { transform: rotateY(0deg) scale(0.8); opacity: 0; }
+        50% { transform: rotateY(180deg) scale(1.1); }
+        100% { transform: rotateY(360deg) scale(1); opacity: 1; }
+      }
+      @keyframes modelFloat {
+        0%, 100% { transform: translateY(0px) rotateX(0deg); }
+        50% { transform: translateY(-10px) rotateX(5deg); }
+      }
+      .pulse-glow {
+        animation: pulse-glow 2s ease-in-out infinite alternate;
+      }
+      
+      .about-section h2, .features-grid h2, .contact-teaser h2 {
+        animation: glowTitle 2s ease-in-out infinite alternate;
+      }
+      @keyframes glowTitle {
+        0% { text-shadow: 0 0 10px #dc0a0a; }
+        100% { text-shadow: 0 0 20px #dc0a0a, 0 0 30px #ff4444; }
+      }
+    </style>
+    <link rel="stylesheet" href="../css/floating-bubble.css">
+    <script src="../js/floating-bubble.js"></script>
+    <script src="../js/homepage.js"></script>
+
+    <div class="floating-bubble" data-tooltip="🛒 Market - Buy Components" aria-label="Go to Market">
+      🖥️
+    </div>
+</body>
+</html>
+
