@@ -1,0 +1,16 @@
+{
+  "name": "learnpc3d",
+  "version": "1.0.0",
+  "description": "Learn PC 3D - Interactive 3D Computer Learning Platform",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static HTML project - no build required'",
+    "start": "echo 'Open index.html in a browser or deploy to Vercel'"
+  },
+  "keywords": ["3d", "computer", "learning", "education"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.1.0"
+  }
+}
