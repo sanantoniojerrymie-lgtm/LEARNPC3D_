@@ -1,0 +1,132 @@
+data-text {
+    font-size: 13px;
+    size-adjust: 100%;
+    color: #fff;
+    text-shadow: 0 0 5px #dc0a0a;
+}
+
+.team-section {
+  padding: 8px 20px;
+  background: linear-gradient(135deg, rgba(0,0,0,0.8), rgba(20,0,0,0.9));
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #a42a2a;
+  text-shadow: 0 0 20px #dc0a0a;
+  animation: glowTitle 2s ease-in-out infinite alternate;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-card {
+  background: rgba(220, 10, 10, 0.1);
+  border: 1px solid rgba(220, 10, 10, 0.3);
+  border-radius: 20px;
+  padding: 30px;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.team-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 1400px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.6s;
+}
+
+.team-card:hover::before {
+  left: 100%;
+}
+
+.team-card:hover {
+  transform: translateY(-15px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(220,10,10,0.4);
+  border-color: #dc0a0a;
+}
+
+.team-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 10px 30px rgba(220,10,10,0.5);
+  animation: pulse-glow 2s ease-in-out infinite alternate;
+  object-fit: cover;
+}
+
+.team-card h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.team-card .role {
+  color: #ff6666;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.team-card p {
+  color: #ddd;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+@keyframes glowTitle {
+  0% { text-shadow: 0 0 10px #dc0a0a; }
+  100% { text-shadow: 0 0 20px #dc0a0a, 0 0 30px #ff4444; }
+}
+
+@keyframes pulse-glow {
+  0% { box-shadow: 0 0 10px rgba(220,10,10,0.5); }
+  100% { box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), 0 0 35px rgba(255,68,68,0.6); }
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .team-section h2 {
+    font-size: 2rem;
+  }
+  
+  .team-card {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  
+  .team-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+  }
+}
+
+.box {
+    width: 95vw;
+    max-width: 1900px;
+    min-height: 1vh
+};

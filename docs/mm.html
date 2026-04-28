@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Learn PC 3D - Market |  </title>
+  <meta name="description" content="Shop premium SSDs from Kingston, Samsung, WD. NVMe & SATA drives for gaming, work, upgrades. Fast shipping across Philippines.">
+  
+  
+  <link rel="stylesheet" href="../css/mm.css">
+  <link rel="icon" href="IMG/logo.png" style="width: 120px; height: 130px;">
+  
+  <style>
+    /* Style ngModal */
+    #product-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      z-index: 10000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    #product-modal.show {
+      display: flex;
+    }
+    .modal-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+    .modal-content {
+      background: white;
+      max-width: 90vw;
+      max-height: 90vh;
+      border-radius: 12px;
+      padding: 30px;
+      position: relative;
+      overflow-y: auto;
+      max-width: 900px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+    .dark .modal-content {
+      background: #1a1a1a;
+      color: #eee;
+    }
+    .close-btn {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      background: none;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+      color: #999;
+    }
+    .close-btn:hover {
+      color: #000;
+    }
+    .dark .close-btn:hover {
+      color: #fff;
+    }
+    .modal-product-image {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .info-card {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .dark .info-card {
+      background: #2a2a2a;
+    }
+    .info-card h3 {
+      margin-top: 0;
+      color: #333;
+    }
+    .dark .info-card h3 {
+      color: #ddd;
+    }
+    .info-card ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    @media (max-width: 768px) {
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <nav class="container">
+       <a href="index.html" class="logo">
+            <img src="IMG/Logo.png" alt="3D Computer Logo" style="width: 122px; height: 99px; margin-right: 10px; padding: 5px; border-radius: 8px;">
+          </a>
+<ul class="nav-links">
+        <li id="theme-toggle" class="theme-toggle">🌙</li> 
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>⚡ Computer parts </h1>
+      <p> Computer parts & from GPU, CPU, Motherboard and more </p>
+    </div>
+  </section>
+
+  <!-- Search & Filter  -->
+  <section class="search-filter container">
+    <input type="text" class="search-input" placeholder="🔍 Search SSDs (NVMe, SATA, 1TB...)">
+    <select class="filter-select">
+      <option>All SSDs</option>
+      <option>NVMe M.2</option>
+      <option>SATA 2.5"</option>
+      <option>M.2 SATA</option>
+    </select>
+  </section>
+
+  <!-- Products Grid -->
+  <section id="ssds" class="products">
+    <h2 class="section-title container">📦 Featured Components</h2>
+    <div class="grid container">
+      
+      <!-- Kingston NV1 PCIe NVMe -->
+      <div class="product-card">
+        <img src="IMG/m.2.png" alt="Kingston NV1 PCIe M.2 NVMe" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">Kingston NV1 PCIe M.2 NVMe (500GB-2TB)</h3>
+          <div class="product-price">₱1,733</div>
+          <button class="add-to-cart see-more-btn" data-product="kingston-nv1">See more Information</button>
+        </div>
+      </div>
+
+      <!-- Samsung 870 Evo -->
+      <div class="product-card">
+        <img src="IMG/sssaaataaa.png" alt="Samsung 870 Evo SATA" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">Samsung 870 Evo SATA 2.5" (500GB)</h3>
+          <div class="product-price">₱3,104</div>
+          <button class="add-to-cart see-more-btn" data-product="samsung-870-evo">See more Information</button>
+        </div>
+      </div>
+
+      <!-- WD Green SATA -->
+      <div class="product-card">
+        <img src="IMG/HDDdesktop.png" alt="WD Green SATA SSD" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">WD Green SATA 2.5" (240GB)</h3>
+          <div class="product-price">₱1,833</div>
+          <button class="add-to-cart see-more-btn" data-product="wd-green-sata">See more Information</button>
+        </div>
+      </div>
+
+      <!-- Team Group GX2 -->
+      <div class="product-card">
+        <img src="IMG/ssd_drive_img0.jpg" alt="Team Group GX2 SATA" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">Team Group GX2 SATA 2.5" (512GB)</h3>
+          <div class="product-price">₱4,163</div>
+          <button class="add-to-cart see-more-btn" data-product="team-gx2">See more Information</button>
+        </div>
+      </div>
+
+      <!-- Lexar NM610 Pro NVMe -->
+      <div class="product-card">
+        <img src="IMG/m.2_nvme_ssd_samsung_990_pro_1tb_3d_model_img0.png" alt="Lexar NM610 Pro 1TB NVMe" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">Lexar NM610 Pro 1TB M.2 NVMe</h3>
+          <div class="product-price">₱3,089</div>
+          <button class="add-to-cart see-more-btn" data-product="lexar-nm610">See more Information</button>
+        </div>
+      </div>
+
+      <!-- Samsung 970 Evo Plus -->
+      <div class="product-card">
+        <img src="IMG/rtx-series.png" alt="Samsung 970 Evo Plus NVMe" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">Samsung 970 Evo Plus 500GB NVMe</h3>
+          <div class="product-price">₱3,541</div>
+          <button class="add-to-cart see-more-btn" data-product="samsung-970">See more Information</button>
+        </div>
+      </div>
+      
+      <!-- Crucial P3 Plus -->
+      <div class="product-card">
+        <img src="IMG/ssd_drive_img1.png" alt="Crucial P3 Plus NVMe" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">Crucial P3 Plus 500GB PCIe 4.0</h3>
+          <div class="product-price">₱2,195</div>
+          <button class="add-to-cart see-more-btn" data-product="crucial-p3">See more Information</button>
+        </div>
+      </div>
+
+      <!-- WD Green M.2 -->
+      <div class="product-card">
+        <img src="IMG/m.2.png" alt="WD Green M.2 SATA" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">WD Green 240GB M.2 SATA</h3>
+          <div class="product-price">₱1,050</div>
+          <button class="add-to-cart see-more-btn" data-product="wd-green-m2">See more Information</button>
+        </div>
+      </div>
+
+      <!-- Adata SU630 -->
+      <div class="product-card">
+        <img src="IMG/ssd_drive_img2.png" alt="Adata SU630 SATA" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">Adata SU630 240GB SATA 2.5"</h3>
+          <div class="product-price">₱995</div>
+          <button class="add-to-cart see-more-btn" data-product="adata-su630">See more Information</button>
+        </div>
+      </div>
+
+      <!-- Ryzen 5 -->
+      <div class="product-card">
+        <img src="IMAGES-MARKET/dot.webp" alt="Ryzen 5" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">Ryzen 5 5600X</h3>
+          <div class="product-price">₱7,395.00</div>
+          <button class="add-to-cart see-more-btn" data-product="ryzen 5">See more Information</button>
+        </div>
+      </div>
+
+ <!-- GPU -->
+      <div class="product-card">
+        <img src="IMAGES-MARKET/GFX.webp" alt="GPU" class="product-image" loading="lazy">
+        <div class="product-info">
+          <h3 class="product-title">ASUS Dual Nvidia Geforce RTX 3050 OC Edition (DUAL-RTX3050-O6G) 6GB 96-bit GDRR6 Videocard"</h3>
+          <div class="product-price">₱13,626.00</div>
+          <button class="add-to-cart see-more-btn" data-product="ASUS Dual Nvidia Geforce RTX 3050 OC Edition">See more Information</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Product Detail Modal -->
+  <div id="product-modal">
+    <div class="modal-overlay" onclick="closeModal()"></div>
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeModal()">&times;</button>
+      <div id="modal-product-details"></div>
+    </div>
+  </div>
+ 
+  <footer>
+    <div class="footer-content container">
+      <p>&copy; 2026 Learn Pc 3D | Market | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="../js/mm.js"></script>
+</body>
+</html>

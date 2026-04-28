@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inventory - 3D Components</title>
+<link rel="stylesheet" href="../css/inventory.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<link rel="apple-touch-icon" sizes="120x120" href="IMG/Logo.png">
+</head>
+
+<body> 
+    <div class="floating-bubble" data-tooltip="🛒 Market - Buy Components" aria-label="Go to Market">
+      🖥️
+    </div>
+<a href="index.html"><img src="IMG/Logo.png" alt="3D Computer Logo" class="logo"></a>
+
+<h2 class="title">3D Component</h2>
+
+<div class="faq-container inventory-list">
+
+<div class="faq">
+<button class="faq-question" data-object="monitor">
+Monitor
+<span></span>
+</button>
+<div class="faq-answer">
+<p>A monitor is an output device that displays text, images, videos, and other visual content from the computer. It allows users to view data, applications, and on-screen activities clearly.
+</p>
+<iframe width="722" height="300" src="https://www.youtube.com/embed/9k61ma45vG8?si=djzgGykN9niC2uxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides"> 
+    <div class="card"><img src="IMG/oled.png" alt="OLED" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="An OLED monitor uses Organic Light-Emitting Diode technology, where each pixel produces its own light instead of relying on a backlight. Because of this, it can display perfect blacks and extremely high contrast, making images look more realistic and detailed. OLED monitors also provide vibrant and accurate colors, fast response times that reduce motion blur, and wide viewing angles so the screen looks clear from different positions. Their thin and lightweight design adds to their modern appeal. The purpose of OLED monitors is to deliver a high-quality visual experience, making them ideal for gaming, watching movies, creative work like photo and video editing, and everyday computer use."   ><h4>OLED Monitor</h4>  </div>
+    <div class="card"><img src="IMG/wide.png" alt="Curved" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="A curved ultrawide monitor is designed to wrap around your field of view, providing a more immersive and comfortable viewing experience by reducing eye strain and minimizing distortion at the edges. Its wider screen allows users to multitask more efficiently by displaying multiple windows side by side without needing a second monitor. The purpose of a curved ultrawide monitor is to enhance productivity, improve gaming immersion, and create a more engaging experience for watching movies, editing content, and everyday computer use."        ><h4>Curved Ultrawide</h4>  </div>
+    <div class="card"><img src="IMG/new.png" alt="4K Resolution" style="object-fit: cover;" width="220px" height="5999px" class="clickable-img" data-text="A 4K monitor is a display with a resolution of 3840 x 2160 pixels, which is four times the pixel count of a standard Full HD (1920 x 1080) display. This ultra-high-definition (UHD) resolution provides exceptionally sharp images and detailed visuals, making 4K monitors ideal for applications such as graphic design, video editing, and immersive entertainment experiences. "><h4>4K Resolution</h4>  </div>
+    <div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+        <model-viewer fullscreen
+        src="3d models/office_monitor__workstation_monitor.gltf" 
+        alt="A 3D model of an office workstation monitor"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+    </div>
+  </div>
+
+</div>
+  </div> 
+
+<div class="faq">
+<button class="faq-question" data-object="keyboard">
+Keyboard
+<span></span>
+</button>
+<div class="faq-answer">
+<p>Keyboards are the primary text input devices for computers, used to enter letters, numbers, symbols, and commands. From the familiar QWERTY layout to specialized gaming and ergonomic designs, they come in different types to match different needs and preferences. Along with standard typing keys, keyboards also include function keys that help users carry out specific commands and interact with programs more easily.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/c8f6us-Sjlo?si=knYwoXv3Jgq6Fnz5&amp;start=99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+    <div class="card"><img src="IMG/qwerty.jpg" alt="QWERTY Layout" style="object-fit: cover;" <width="220px" height="140px"  class="clickable-img" data-text="The QWERTY design is based on a layout included on the Sholes and Glidden typewriter sold by E. Remington and Sons from 1874. The layout became popular with the success of the Remington No. 2 of 1878 and remains in widespread use as a de facto standard on computers, as of 2026. Two prominent alternatives, Dvorak and Colemak, have been developed. In Europe, two types of modified layouts, QWERTZ and AZERTY, are used predominantly for German and French, respectively." ><h4>QWERTY Layout</h4></div>
+    <div class="card"><img src="IMG/mechanical.png" alt="Mechanical" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="In a general sense, all keyboards work the same way. You press a key, and it sends a signal to your computer. Your computer then decodes that signal and turns it into a letter or command. Simple. But membrane and mechanical keyboards send that signal in a different way.
+
+On a membrane keyboard, all the keys are connected to a rubber pad. When you press a key, the pad gets pushed down to touch a circuit board. Depending on which part of the circuit board gets touched, the keyboard sends a different signal.
+
+Meanwhile, every key on a mechanical keyboard has its own dedicated switch to send signals with. When you press a mechanical key, it clicks in a physical spring-loaded switch, which then sends a specific signal to the computer."        ></width><h4>Mechanical Keyboard</h4></div>
+    <div class="card"><img src="IMG/gaming.png" alt="Gaming" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="A gaming keyboard is a sturdy, high-performance keyboard that's well-designed for gaming. Equipped with satisfying RGB lights behind the keys, these keyboards are usually mechanical, which means they're the easiest to type with. You barely have to apply any pressure for keys to register, allowing you to type faster and without fatigue."        ></width><h4>Gaming Keyboard</h4></div>
+    <div class="card"><img src="IMG/wireless.png" alt="Wireless" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Wireless keyboards based on infrared technology use light waves to transmit signals to other infrared-enabled devices. In case of radio frequency technology, a wireless keyboard communicates using signals which range from 27 MHz to up to 2.4 GHz. The majority of wireless keyboards today work on 2.4 GHz radio frequency.[citation needed] Bluetooth is another technology that is being widely used by wireless keyboards. These devices connect and communicate with their parent device via the Bluetooth protocol."        ></width><h4>Wireless Keyboard</h4></div>
+     <div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/keyboard.gltf" 
+        alt="A 3D keyboard"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="mouse">
+Mouse
+<span></span>
+</button>
+<div class="faq-answer">
+<p>Used to control the pointer on the screen, making it easier to click, select, drag, and open files or programs. From its early ball-tracked design to today's optical and laser versions, it has remained one of the most familiar tools for navigating a computer. When moved across a flat surface, it helps guide the cursor and makes on-screen interaction quicker and more precise.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/SAaESb4wTCM?si=TkncdiRzNCNMmkgP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+    <div class="card"><img src="IMG/optical.png" alt="Optical Mouse" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="An optical mouse is a computer mouse which uses a light source, typically a light-emitting diode (LED), and a light detector, such as an array of photodiodes, to detect movement relative to a surface. Variations of the optical mouse have largely replaced the older mechanical mouse design, which uses moving parts to sense motion.
+
+The earliest optical mice detected movement on pre-printed mousepad surfaces. Modern optical mice work on most opaque diffusely reflective surfaces like paper, but most of them do not work properly on specularly reflective surfaces like polished stone or transparent surfaces like glass. Optical mice that use dark field illumination can function reliably even on such surfaces."        ></width><h4>Optical Mouse</h4></div>
+    <div class="card"><img src="IMG/laser.png" alt="Laser Mouse" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="An optical mouse is a computer mouse which uses a light source, typically a light-emitting diode (LED), and a light detector, such as an array of photodiodes, to detect movement relative to a surface. Variations of the optical mouse have largely replaced the older mechanical mouse design, which uses moving parts to sense motion.
+
+The earliest optical mice detected movement on pre-printed mousepad surfaces. Modern optical mice work on most opaque diffusely reflective surfaces like paper, but most of them do not work properly on specularly reflective surfaces like polished stone or transparent surfaces like glass. Optical mice that use dark field illumination can function reliably even on such surfaces."        ></width><h4>Laser Mouse</h4></div>
+    <div class="card"><img src="IMG/wirelessmouse.png" alt="Wireless Mouse" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="A wireless mouse is a device that lets you control your computer, laptop, or tablet without a cable. It’s perfect for school and college students who need a reliable, portable tool for studying, projects, or even gaming. Unlike other mouse that connects with a USB cable, a wireless mouse uses Bluetooth or a USB receiver (a small dongle) to connect."        ></width><h4>Wireless Mouse</h4></div>
+    <div class="card"><img src="IMG/gamingmouse.png" alt="Gaming Mouse" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="At its core, a gaming mouse functions the same as any other — it moves the cursor and clicks. The difference is that gaming mice often push hardware specs further and add extra features on top. They come in a wide range of designs, with some focused on speed and performance, and others prioritizing expanded functionality."        ></width><h4>Gaming Mouse</h4></div>
+    <div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/computer_mouse_a4tech_bloody_v7.gltf" 
+        alt="A 3D Mouse"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+    
+</div>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="speaker">
+Speaker
+<span></span>
+</button>
+<div class="faq-answer">
+<p>Speakers are output devices that produce sound from the computer, allowing users to hear music, videos, notifications, and other audio clearly. Speakers bring digital content to life and make the experience more engaging, whether for entertainment, communication, or everyday use.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/Y4uO-gy-9mY?si=PliCDwYRYq73oJWJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+    <div class="card"><img src="IMG/stereo.png" alt="Stereo" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Stereo speakers, also referred to as stereo loudspeakers, are a pair of audio speakers designed to reproduce sound in two separate channels: left and right. They are an integral component of stereo audio systems, delivering a more immersive and realistic listening experience.
+
+The term “stereo” refers to the use of two audio channels and the spatial distribution of sound. Stereo speakers create a stereo soundstage, where each speaker is responsible for playing a specific channel of audio. The left speaker typically reproduces the left audio channel, while the right speaker reproduces the right audio channel. By separating and allocating different sounds to each speaker, stereo speakers can accurately replicate the way we perceive sound in real-life scenarios."        ></width><h4>Stereo Speakers</h4></div>
+    <div class="card"><img src="IMG/SUBWOOFER.png" alt="Subwoofer Speaker" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="A subwoofer (or sub) is a loudspeaker designed to reproduce low-pitched audio frequencies, known as bass and sub-bass, that are lower in frequency than those which can be (optimally) generated by a woofer. The typical frequency range that is covered by a subwoofer is about 20–200 Hz for consumer products,[1] below 100 Hz for professional live sound,[2] and below 80 Hz in THX-certified systems.[3] Thus, one or more subwoofers are important for high-quality sound reproduction as they are responsible for the lowest two to three octaves of the ten octaves that are audible. This very low-frequency (VLF) range reproduces the natural fundamental tones of the bass drum, electric bass, double bass, grand piano, contrabassoon, tuba, in addition to thunder, gunshots, explosions, etc."        ></width><h4>Subwoofer</h4></div>
+    <div class="card"><img src="IMG/bluetooth.png" alt="Bluetooth Speaker" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="A Bluetooth speaker is a speaker that will connect wirelessly to a computer, phone, tablet, music player, or other music source, using the Bluetooth wireless protocol."        ></width><h4>Bluetooth</h4></div>
+    <div class="card"><img src="IMG/gamingspeaker.png" alt="Gaming Speaker" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Gaming audio has evolved dramatically, and the right sound system can transform your gaming experience from good to extraordinary. Whether you're tracking enemy footsteps in competitive shooters or immersing yourself in epic single-player adventures, quality audio provides crucial gameplay advantages and enhanced immersion."        ></width><h4>Gaming Speakers</h4></div>
+    <div class="card"><img src="IMG/soundbar.png" alt="Soundbar" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="A soundbar, sound bar or media bar is a type of loudspeaker that projects audio from a wide enclosure. It is much wider than it is tall, partly for acoustic reasons, and partly so it can be mounted above or below a display device (e.g. above a computer monitor or under a home theater or television screen). In a soundbar, multiple speakers are placed in a single cabinet, which helps to create stereo sound and surround sound effect. A separate subwoofer is typically included with, or may be used to supplement, a soundbar."        ></width><h4>Soundbar</h4></div>
+    <div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/computer_speaker (1).gltf" 
+        alt="A 3D keyboard"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="faq">
+<button class="faq-question" data-object="webcam">
+Webcam
+<span></span>
+</button>
+<div class="faq-answer">
+<p>Webcams are input devices that capture live video and images for the computer. Commonly used for video calls, online meetings, recording, and other visual communication tasks, webcams make it easier for users to connect and share in real time.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/yAkQRrl4FYU?si=M2tT73RoRRQ47AsV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+    <div class="card"><img src="IMG/hdwebcam.png" alt="HD Webcam"style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="An HD (High-Definition) webcam is a camera that can record and stream video in high-definition quality. HD webcams typically deliver sharper and clearer video compared to standard webcams, making them ideal for various purposes such as video conferencing, live streaming, and content creation. The key difference between an HD webcam and a regular webcam lies in the resolution. While traditional webcams usually offer resolutions ranging from 240p to 480p, HD webcams start at 720p and go up to 1080p or even higher."        ></width><h4>HD Webcam</h4></div>
+    <div class="card"><img src="IMG/4kweb.png" alt="4K" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Resolution refers to the number of tiny dots, or pixels that appear on the screen. 4K, or Ultra HD (UHD), resolution is made up of 3840 pixels wide by 2160 pixels tall. The name “4K” comes from its horizontal pixel count of approximately 4000 pixels. 4K resolution offers sharper details and clarity resulting in a more realistic visual. For several years, many televisions, computer monitors, and other display devices feature 4K resolution On the other hand, 1080p, also known as Full HD, has a resolution of 1920 pixels wide by 1080 pixels tall. The 'p' in 1080p stands for progressive scan, meaning the entire picture is displayed in one frame instead of using odd and even lines leading to a clear image. This resolution finds wide usage in HD televisions, computer monitors, and video content. Although it provides less detail than 4K, it still delivers a sharp and clear picture. "        ></width><h4>4K Webcam</h4></div>
+    <div class="card"><img src="IMG/usbwebcam.png" alt="USB" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text=" The USB webcam has become an indispensable tool for individuals and businesses alike. However, despite its widespread use, the intricacies of how a USB webcam actually works and its various components remain a mystery to many. Unraveling this mystery is essential for understanding the importance and functionality of this device in today’s technology-driven world."        ></width><h4>USB Webcam</h4></div>
+    <div class="card"><img src="IMG/ringlight.png" alt="Ring Light" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Ring lights are circular lighting fixtures that provide uniform, soft lighting. They are designed to minimize shadows and evenly illuminate the face, making them a preferred choice in photography and videography. For webcams, ring lights serve as an ideal fill light, especially in settings lacking natural light.
+
+Ring lights bring the light source closer to the axis of the camera lens. This not only eliminates harsh shadows and softens rough textures but also enhances the clarity of photos and videos. Ring lights also help in reducing blemishes, explaining why influencers in those captivating Instagram photos always appear flawless"        ></width><h4>Ring Light</h4></div>
+<div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/log_itech_webcam.gltf" 
+        alt="A 3D Webcam"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+<a href="https://youtu.be/yAkQRrl4FYU?si=A9Vo0a6VFYBIoZWG" target="_blank">Video Tutorial</a>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="headphones">
+Headphones
+<span></span>
+</button>
+<div class="faq-answer">
+<p>Headphones provide personal audio output, ideal for private listening or when you need to focus without disturbing others.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/Ac2KETythUE?si=UWZVjiAmKXoyh4b2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+    <div class="card"><img src="IMG/overear.png" alt="Over-Ear Headphone" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Over-ear headphones have become an indispensable accessory for music enthusiasts, gamers, and professionals alike. These headphones, also known as over-the-ear headphones, offer a superior listening experience, comfort, and style. Unlike their on-ear counterparts, over-ear headphones envelop the ears, providing a more immersive sound and effectively blocking out ambient noise. As a result, they have gained widespread popularity among individuals seeking high-quality audio and enhanced comfort during extended use.
+
+The design of over-ear headphones, with their cushioned ear cups and adjustable headbands, offers a snug fit that minimizes pressure on the ears. This feature, combined with advancements in audio technology, ensures an unparalleled listening experience. Whether used for enjoying music, gaming, or professional audio work, over-ear headphones deliver rich, detailed sound and exceptional noise isolation."        ></width><h4>Over-Ear</h4></div>
+    <div class="card"><img src="IMG/inear.png" alt="In-Ear Headphone" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="n-ear headphones a device through which you can listen to music, radio broadcasts, etc. without other people hearing or other listening devices are worn inside your outer ear"        ></width><h4>In-Ear</h4></div>
+    <div class="card"><img src="IMG/wirelessheadphonepng.png" alt="Wireless Headphone" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Wireless Headphones are excellent for smartphone, tablet, game console, and laptop users who want the ability to listen free from the shackles of inconvenient wires. The freedom they afford users can be a gamechanger around the home or office, and dramatically improve particular activities like exercise, running or watching TV."        ></width><h4>Wireless</h4></div>
+    <div class="card"><img src="IMG/gamingahhheadphone.png" alt="Gaming Headphone" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Gaming headphone are an all-in-one solution to immerse yourself in games while chatting with friends and teammates. They're over-the-ear headphones equipped with a clear microphone. You can usually distinguish these headsets as they have a bulky build and come with RGB lighting."        ></width><h4>Gaming Headphone</h4></div>
+    <div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/headphones.gltf" 
+        alt="A 3D Headphone"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="faq">
+<button class="faq-question" data-object="microphone">
+Microphone
+<span></span>
+</button>
+<div class="faq-answer">
+<p>An input device that captures sound and voice for the computer. They allow users to speak, record audio, join video calls, and use voice commands more clearly, making communication and recording easier in everyday digital activities.</p>
+<iframe width="720" height="300" src="https://www.youtube.com/embed/m1kHDkRTwyQ?si=3uHX7bEHar3FOnR7" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+    <div class="card"><img src="IMG/usbmic.png" alt="USB Mic"style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="A USB mic contains all the elements of a traditional microphone: capsule, diaphragm, etc. It differs from other microphones by including two additional circuits: an onboard preamp and an analog-to-digital (A/D) converter."        ></width><h4>USB Mic</h4></div>
+    <div class="card"><img src="IMG/condenser.png" alt="Condenser" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Condenser microphones are typically much more sensitive than other microphones like dynamic microphones. They're good for capturing detail across the entire range of frequencies but make it much easier to pick up unwanted sounds in the background. For recording instruments, condenser mics are generally more detailed."        ></width><h4>Condenser</h4></div>
+    <div class="card"><img src="IMG/dynamic-mic.png" alt="Dynamic" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Broadly speaking, there are two types of microphones: dynamic and condenser. Although condenser microphones are known for being more precise and sensitive than dynamic microphones, dynamic microphones are often just as integral to studio recording as they are to stage performance."        ></width><h4>Dynamic</h4></div>
+    <div class="card"><img src="IMG/lavalier.png" alt="Lavalier" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="A lavalier microphone or lavalier (also known as a lav, lapel mic, clip mic, body mic, collar mic, neck mic or personal mic) is a small microphone used for television, interview and other studio applications to allow hands-free operation. They are most commonly provided with small clips for attaching to collars, ties, or other clothing. The cord may be hidden by clothes and either run to a radio frequency transmitter kept in a pocket or clipped to a belt, or routed directly to the mixer or a recording device."        ></width><h4>Lavalier</h4></div>
+    <div class="card"><img src="IMG/gamingmic.png" alt="Gaming" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="The best gaming headsets have some pretty impressive built-in mics these days, but they're built to multi-task — they won't deliver that professional-grade clarity you hear on the radio. A standalone mic will not only make your voice sound better and clearer to your teammates, coworkers, and viewers, it can also be used for other things (such as podcasting or recording music)."        ></width><h4>Gaming Mic</h4></div>
+    <div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/computer_microphone.gltf" 
+        alt="A 3D Microphone"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+
+      </model-viewer>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="cpu">
+CPU (Processor)
+<span></span>
+</button>
+<div class="faq-answer">
+<p>The CPU, or processor, is the main component responsible for carrying out instructions and processing data in the computer. Often described as the brain of the system, the CPU interprets and computes instructions, performs calculations, and manages tasks that allow programs and system operations to run properly.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/UTKxMAnFHnw?si=HWkeGOk4OlAIyVgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+    <div class="card"><img src="IMG/intelcore.png" alt="Intel Core" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Intel Core is a line of multi-core (with the exception of Core Solo and Core 2 Solo) central processing units (CPUs) for midrange, embedded, workstation, high-end, enthusiast and gaming computer markets marketed by Intel Corporation. These processors displaced the existing mid- to high-end Pentium processors at the time of their introduction, moving the Pentium to the mid-range budget market. Identical or more capable versions of Core processors are also sold as Xeon processors for the server and workstation markets.
+
+Core was launched in January 2006 as a mobile-only series, consisting of single-core and dual-core models. It was then succeeded later in July by the Core 2 series, which included both desktop and mobile processors with up to four cores, and introduced 64-bit support.
+
+Since 2008, Intel began introducing the Core i3, Core i5, Core i7 and Core i9 lineup of processors, succeeding Core 2.
+
+A new naming scheme was introduced in 2023, consisting of Core 3, Core 5, and Core 7 for mainstream processors, and Core Ultra 5, Core Ultra 7, and Core Ultra 9 for "premium" high-end processors."        ></width><h4>Intel Core</h4></div>
+    <div class="card"><img src="IMG/AMDRyzen.png" alt="AMD Ryzen" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="Ryzen (/ˈraɪzən/ RY-zən)[3] is a brand[4] of multi-core x86-64 microprocessors, designed and marketed by AMD for desktop, mobile, server, and embedded platforms, based on the Zen microarchitecture. It consists of central processing units (CPUs) marketed for mainstream, enthusiast, server, and workstation segments; accelerated processing units (APUs), marketed for mainstream and entry-level segments and embedded systems applications.
+
+A majority of AMD's desktop Ryzen products use the AM4 and AM5 platforms. In August 2017, AMD launched their Ryzen Threadripper line aimed at the enthusiast and workstation markets. Ryzen Threadripper uses different, larger sockets such as TR4, sTRX4, sWRX8, and sTR5, which support additional memory channels and PCI Express lanes. AMD moved to the AM5 platform for consumer desktop Ryzen with the release of Zen 4 products in late 2022."        ></width><h4>AMD Ryzen</h4></div>
+    <div class="card"><img src="IMG/mobilecpu.png" alt="Mobile CPU" style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="A CPU chip is designed for portable computers to run fanless, under 10 to 15W, which is cool enough without a fan.[1] It is typically housed in a smaller chip package, but more importantly, in order to run cooler, it uses lower voltages than its desktop counterpart and has more sleep mode capability. A mobile processor can be throttled down to different power levels or sections of the chip can be turned off entirely when not in use. Further, the clock frequency may be stepped down under low processor loads. This stepping down conserves power and prolongs battery life."        ></width><h4>Mobile CPU</h4></div>
+    <div class="card"><img src="IMG/server.png" alt="Server CPU"style="object-fit: cover;" <width="220px" height="140px" class="clickable-img" data-text="A server's Central Processing Unit (CPU) determines how well a server handles running applications, managing virtual machines, or databases. However, unlike desktop processors, server CPUs are engineered for stability, scalability, and continuous uptime in demanding environments.
+
+Therefore, understanding the role and architecture of a server CPU is critical for selecting the right hardware for enterprises, small businesses, or specialized infrastructure needs."        ></width><h4>Server CPU</h4></div>
+<div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/intel_cpu.gltf" 
+        alt="A 3D Cpu"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+
+</div>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="motherboard">
+Motherboard
+<span></span>
+</button>
+<div class="faq-answer">
+<p>The main circuit board that brings the computer's essential parts together. It connects components like the CPU, RAM, and storage, allowing data and power to move through the system as everything works together.</p>
+
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/XSTKVZcp5sQ?si=gv1msQWIjsWuWoub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+<div class="card"><img src="IMG/atx.png" alt="ATX" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="An ATX motherboard is a standard-sized main circuit board used in desktop computers that connects and allows communication between components like the CPU, RAM, and GPU, and it provides benefits such as better expandability, more RAM and PCIe slots, improved airflow inside the case, and easier upgrades for high-performance builds."><h4>ATX Motherboard</h4></div>
+<div class="card"><img src="IMG/micro-atx.png" alt="Micro ATX" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="A Micro ATX motherboard is a smaller version of the standard ATX board designed for compact computer builds while still supporting essential components, and it offers benefits such as space-saving design, lower cost, decent expandability, and compatibility with smaller cases without sacrificing performance for everyday use."><h4>Micro ATX</h4></div>
+<div class="card"><img src="IMG/mini-itx.png" alt="Mini ITX" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="A Mini ITX motherboard is a very compact form factor designed for small and portable computer systems, and it provides benefits such as minimal space usage, energy efficiency, and sleek builds, making it ideal for basic tasks, home setups, and compact gaming PCs."><h4>Mini ITX</h4></div>
+<div class="card"><img src="IMG/server-board.png" alt="Server" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="A server motherboard is a specialized board designed for handling heavy workloads and continuous operation in servers, and it offers benefits such as support for multiple CPUs, higher RAM capacity, enhanced stability, error correction features, and reliable performance for data processing, hosting, and enterprise systems."><h4>Server Board</h4></div>
+<div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/motherboard.gltf"
+        alt="A 3D motherboard"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="ram">
+RAM (Memory)
+<span></span>
+</button>
+<div class="faq-answer">
+<p>RAM is a temporary memory component that stores data currently being used by the computer. Often compared to short-term memory, RAM gives the CPU quick access to the information needed for running programs and switching between tasks more smoothly. Unlike long-term storage devices like an HDD or SSD, the data in RAM is erased when the computer is turned off.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/kRMJwiXhrEU?si=p_TfagDYbLoTAL0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+<div class="card"><img src="IMG/DDR4.png" alt="DDR4" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" p="DDR4 RAM is a type of system memory used in computers to store active data for quick access by the CPU, and it provides benefits such as faster speeds, improved power efficiency compared to older generations, and reliable performance for multitasking, gaming, and everyday applications."><h4>DDR4 RAM</h4></div>
+<div class="card"><img src="IMG/DDR5.png" alt="DDR5" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="DDR5 RAM is the latest generation of computer memory designed to deliver higher bandwidth and performance for modern systems, and it offers benefits such as faster data transfer speeds, better power efficiency, increased capacity support, and smoother performance for gaming, content creation, and heavy multitasking."><h4>DDR5 RAM</h4></div>
+<div class="card"><img src="IMG/RGBram.png" alt="RGB" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="RGB RAM is a type of memory module equipped with customizable lighting effects while still functioning as standard system memory, and it provides benefits such as aesthetic enhancement for PC builds, synchronized lighting with other components, and reliable performance for gaming and daily computing tasks."><h4>RGB RAM</h4></div>
+<div class="card"><img src="IMG/ecc-ram.jpg" alt="ECC" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="ECC RAM is a specialized type of memory that can detect and correct data errors during operation, and it offers benefits such as increased system stability, improved data integrity, and reliable performance for servers, workstations, and critical computing tasks."><h4>ECC RAM</h4></div>
+<div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/ram_corsair_vengeance_ddr4_rgb_pro.gltf"
+        alt="A 3D model of RAM"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+<a href="https://youtu.be/9k61ma45vG8?si=Aao0OoW_Xuny_aBg" target="_blank">Video Tutorial</a>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="rom">
+ROM
+<span></span>
+</button>
+<div class="faq-answer">
+<p>Read-only memory is a type of permanent memory that cannot be changed. ROM is critical since it stores permanent data and instructions for the desktop computer or laptop to boot up. Even after the computer is powered off, the ROM still retains the data necessary to start the computer up again.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/751npFBxmIA?si=NE-pLUZhoei6FMm-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+<div class="card"><img src="IMG/ROm.jpg" alt="BIOS Chip" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="BIOS ROM is a type of read-only memory that stores the Basic Input/Output System used to start a computer. It contains the essential instructions needed to boot up the system and initialize hardware components. This memory works immediately when the computer is powered on. It cannot be easily modified, making it secure and stable for critical startup operations. BIOS ROM ensures that the system can properly detect devices like the CPU, RAM, and storage. Its main benefit is providing reliable and consistent startup functionality for every computer."><h4>BIOS ROM</h4></div>
+<div class="card"><img src="IMG/placa-firmware.jpg" alt="Firmware" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="Firmware ROM is a type of memory that stores low-level software used to control hardware devices. It provides instructions that allow hardware components to function properly. This type of ROM is commonly found in devices like routers, printers, and motherboards. Firmware remains stored even when the device is turned off. It ensures stable and consistent operation of hardware systems. Its main benefit is maintaining reliable control and communication between hardware and software."><h4>Firmware ROM</h4></div>
+<div class="card"><img src="IMG/EPROM.png" alt="EPROM" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="EPROM, or Erasable Programmable Read-Only Memory, is a type of ROM that can be erased and reprogrammed using ultraviolet light. It is used to store data that may need occasional updates. EPROM retains data even when power is removed. However, erasing it requires special equipment and exposure to UV light. This makes it less convenient compared to modern memory types. Its benefit is allowing limited reusability while still maintaining non-volatile storage."><h4>EPROM</h4></div>
+<div class="card"><img src="IMG/EEPROM.png" alt="EEPROM" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="EEPROM, or Electrically Erasable Programmable Read-Only Memory, is a type of ROM that can be erased and rewritten using electrical signals. It allows data to be updated without removing the chip from the device. EEPROM is commonly used in modern electronics and embedded systems. It retains data even when the power is turned off. This type of memory is more flexible and convenient than EPROM. Its main benefit is easy and efficient data updating while maintaining non-volatile storage."><h4>EEPROM</h4></div>
+<div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/chip.gltf"
+        alt="A 3D model of a ROM chip"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="gpu">
+GPU / Graphics Card
+<span></span>
+</button>
+<div class="faq-answer">
+<p>The GPU, or graphics card, is responsible for processing and rendering visual data in the computer. It handles images, videos, animations, and other graphical effects, helping everything appear properly on the screen. Because it manages how visual content is displayed, the GPU plays an important role in gaming, media, and other graphics-heavy tasks.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/GoX-6rGZPiI?si=7ySYhlEQknW46kOq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+<div class="card"><img src="IMG/2016-06-20-image.webp" alt="NVIDIA GeForce" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="NVIDIA GeForce is a line of graphics cards designed for gaming and high-performance computing. It is known for delivering powerful graphics processing and advanced technologies. These GPUs support features like ray tracing and AI-enhanced graphics. They are commonly used in gaming PCs and creative workstations. NVIDIA GeForce cards provide smooth frame rates and high-quality visuals. Their main benefit is excellent performance for gaming, video editing, and 3D rendering."><h4>NVIDIA GeForce</h4></div>
+<div class="card"><img src="IMG/radeon.png" alt="AMD Radeon" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="AMD Radeon is a series of graphics cards developed to deliver strong visual performance for various computing needs. It is widely used for gaming, streaming, and multimedia applications. Radeon GPUs offer competitive performance and modern features. They support high-resolution displays and smooth graphics rendering. AMD focuses on providing value and efficiency in their GPUs. Their main benefit is reliable performance at a more affordable price for gamers and creators."><h4>AMD Radeon</h4></div>
+<div class="card"><img src="IMG/rtx-series.png" alt="RTX Series" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="RTX Series graphics cards are advanced GPUs from NVIDIA that feature real-time ray tracing technology. They are designed to create realistic lighting, shadows, and reflections in games and applications. RTX cards also use AI features like DLSS to improve performance and image quality. These GPUs are popular among gamers and content creators. They provide faster rendering and smoother gameplay. Their main benefit is delivering highly realistic graphics and enhanced performance for modern applications."><h4>RTX Series</h4></div>
+<div class="card"><img src="IMG/Integrated-vs-dedicated-gpu.jpg" alt="Integrated" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="An integrated GPU is a graphics processor built directly into the CPU instead of being a separate component. It shares system memory with the computer instead of having its own dedicated memory. Integrated GPUs are commonly found in laptops and budget desktops. They are suitable for basic tasks like browsing, watching videos, and light gaming. These GPUs consume less power and generate less heat. Their main benefit is energy efficiency and cost savings while still providing essential graphics performance."><h4>Integrated GPU</h4></div>
+<div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/gpu.gltf"
+        alt="A 3D model of RAM"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="ssd">
+SSD
+<span></span>
+</button>
+<div class="faq-answer">
+<p>An SSD is a storage device that saves data using flash memory. It loads files, programs, and the operating system faster, which helps improve the overall speed of the computer.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/geTVcwaHTVs?si=MUSj4RZYEIkO82cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+ <div class="card"><img src="IMG/m.2.png" alt="M.2 NVMe" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="An M.2 NVMe SSD is a high-speed storage device that connects directly to the motherboard using the M.2 slot. It uses the NVMe protocol for faster data transfer compared to older interfaces. This type of SSD is much faster than SATA SSDs. It is commonly used for operating systems and demanding applications. M.2 NVMe drives improve boot times and loading speeds. Their main benefit is extremely fast performance for gaming, editing, and multitasking."><h4>M.2 NVMe</h4></div>
+<div class="card"><img src="IMG/sata.png" alt="SATA SSD" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="A SATA SSD is a solid-state drive that uses the SATA interface to connect to a computer. It is faster than traditional hard drives but slower than NVMe SSDs. SATA SSDs are commonly used for upgrading older systems. They improve system responsiveness and reduce loading times. These drives are widely compatible with many devices. Their main benefit is providing reliable performance at an affordable cost."><h4>SATA SSD</h4></div>
+<div class="card"><img src="IMG/heading@2x.png" alt="Enterprise" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="An enterprise SSD is a high-performance storage device designed for servers and data centers. It is built for continuous operation and heavy workloads. These SSDs offer higher durability and reliability than consumer drives. They support advanced features like error correction and data protection. Enterprise SSDs ensure stable performance under pressure. Their main benefit is dependable and consistent performance for critical business systems."><h4>Enterprise SSD</h4></div>
+<div class="card"><img src="IMG/external.png" alt="External SSD" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="An external SSD is a portable storage device that connects to a computer using USB or similar interfaces. It allows users to store and transfer files easily. External SSDs are faster and more durable than external hard drives. They are commonly used for backups and file transfers. These drives are lightweight and easy to carry. Their main benefit is fast and convenient portable storage for everyday use."><h4>External SSD</h4></div>
+<div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/m.2_nvme_ssd_samsung_990_pro_1tb_3d_model.gltf"
+        alt="A 3D model of RAM"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+      <div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/ssd_drive.gltf"
+        alt="A 3D model of RAM"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="powersupply">
+Power Supply Unit
+<span></span>
+</button>
+<div class="faq-answer">
+<p>The power supply unit (PSU) converts wall power to low-voltage regulated DC power for the computer's components. It ensures stable power delivery with sufficient wattage and efficiency for reliable operation.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/eMwy7QSySQo?si=yvxe6eEN1a_bb62E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+<div class="card"><img src="IMG/Bronze.png" alt="650W 80+ Bronze" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="A 650W 80+ Bronze power supply unit is designed to provide stable power for mid-range computer systems. It delivers up to 650 watts of power to support essential components. The 80+ Bronze certification means it is energy efficient and wastes less electricity. This PSU is suitable for basic gaming and everyday computing builds. It helps maintain consistent voltage and protects components from power issues. Its main benefit is reliable performance with good efficiency at an affordable cost."><h4>650W 80+ Bronze</h4></div>
+  <div class="card"><img src="IMG/850.png" alt="850W Gold" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="An 850W Gold power supply unit is a high-capacity PSU designed for powerful and high-performance systems. It provides up to 850 watts of stable and continuous power. The 80+ Gold certification ensures higher energy efficiency and lower heat generation. This PSU is ideal for gaming PCs with powerful GPUs and CPUs. It supports demanding tasks like streaming and content creation. Its main benefit is efficient and stable power delivery for high-end builds."><h4>850W Gold</h4></div>
+  <div class="card"><img src="IMG/psu.png" alt="Modular" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="A modular power supply unit allows users to attach only the cables they need for their system. This helps reduce cable clutter inside the computer case. It improves airflow and overall cooling performance. Modular PSUs are easier to install and manage compared to non-modular ones. They also make upgrading and maintenance more convenient. Their main benefit is a cleaner and more organized PC build with better airflow."><h4>Modular Cables</h4></div>
+  <div class="card"><img src="IMG/sfx.png" alt="SFX Small Form" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="An SFX power supply unit is a compact PSU designed for small form factor computer cases. It provides reliable power while taking up less space than standard PSUs. SFX units are commonly used in mini ITX builds. Despite their size, they can still deliver strong performance. They are designed for efficiency and proper heat management. Their main benefit is saving space while still powering compact systems effectively."><h4>SFX Form Factor</h4></div><div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/psu_power_supply_unit.gltf"
+        alt="A 3D model of RAM"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="faq">
+<button class="faq-question" data-object="hdd">
+HDD
+<span></span>
+</button>
+<div class="faq-answer">
+<p>An HDD is a storage device that saves data on spinning magnetic disks. It is commonly used for storing large amounts of files, programs, and system data over a long period of time.</p>
+<iframe width="720" height="300" src="https://www.youtube-nocookie.com/embed/_D0bwTd0PHM?si=SnaQFRCwTCw5opbS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="carousel">
+  <button class="carousel-btn next" aria-label="Next slide">›</button>
+  <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+  <div class="slides">
+<div class="card"><img src="IMG/HDDdesktop.png" alt="HDD Desktop" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="vide stable power for mid-range computer systems. It delivers up to 650 watts of power to support essential components. The 80+ Bronze certification means it is energy efficient and wastes less electricity. This PSU is suitable for basic gaming and everyday computing builds. It helps maintain consistent voltage and protects components from power issues. Its main benefit is reliable performance with good efficiency at an affordable cost."><h4>HDD desktop</h4></div>
+<div class="card"><img src="IMG/laptop_hdd.png" alt="laptop HDD" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="An 850W Gold power supply unit is a high-capacity PSU designed for powerful and high-performance systems. It provides up to 850 watts of stable and continuous power. The 80+ Gold certification ensures higher energy efficiency and lower heat generation. This PSU is ideal for gaming PCs with powerful GPUs and CPUs. It supports demanding tasks like streaming and content creation. Its main benefit is efficient and stable power delivery for high-end builds."><h4>Laptop HDD</h4></div>
+<div class="card"><img src="IMG/sssaaataaa.png" alt="Modular" style="object-fit: cover;" width="220px" height="140px" class="clickable-img" data-text="A modular power supply unit allows users to attach only the cables they need for their system. This helps reduce cable clutter inside the computer case. It improves airflow and overall cooling performance. Modular PSUs are easier to install and manage compared to non-modular ones. They also make upgrading and maintenance more convenient. Their main benefit is a cleaner and more organized PC build with better airflow."><h4>Modular Cables</h4></div><div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/storage_ssd_hdd_m.2.gltf"
+        alt="A 3D model of RAM"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+      <div class="card gltf-card clickable-img" data-text="Interactive 3D model of an office workstation monitor. Rotate, zoom, and pan with mouse/touch. Features realistic lighting and shadows. Click to view description.">
+     
+      <model-viewer fullscreen
+        src="3d models/wd_green_1tb_hard_disk_hdd.gltf"
+        alt="A 3D model of RAM"
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1" 
+        environment-image="neutral"
+        exposure="1"
+        style="width: 100%; height: 100%;">
+        <template slot="fullscreenbutton">
+          <button class="mv-fullscreen-btn">
+            <svg viewBox="0 0 24 24" height="24" width="24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+            </svg>
+            <svg class="exit" viewBox="0 0 24 24" height="24" width="24" style="display:none">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm-2-4v-2H5v5h2v-3h3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </template>
+      </model-viewer>
+      </div>
+</div>
+
+</div>
+
+
+    <link rel="stylesheet" href="../css/floating-bubble.css">
+    <script src="../js/floating-bubble.js"></script>
+    <script src="../js/modal-manager.js"></script>
+    <script src="../js/inventory.js"></script>
+
+<!-- 3D Viewer Modal for Inventory -->
+
+<dialog id="inventory-3d-modal" class="inventory-modal" aria-labelledby="inventory-modal-title" aria-modal="true" role="dialog">
+  <div class="modal-content bg-gradient-to-br from-gray-900/95 to-black/90 backdrop-blur-xl p-8 rounded-3xl max-w-6xl max-h-[90vh] overflow-hidden border border-gray-700/50 shadow-2xl shadow-red-500/20 w-full mx-4">
+    <div class="flex justify-between items-start mb-6">
+      <h2 id="inventory-modal-title" class="text-4xl font-bold text-white"></h2>
+      <button id="close-inventory-modal" class="text-3xl hover:text-red-400 transition" title="Close">&times;</button>
+    </div>
+    <model-viewer id="inventory-viewer" src="" auto-rotate camera-controls shadow-intensity="1" ar exposure="1" camera-orbit="-45deg 55deg 105%" style="width: 100%; height: 60vh; border-radius: 16px;" loading="lazy"></model-viewer>
+    <div id="inventory-modal-desc" class="text-lg text-gray-300 mt-6 p-4 bg-gray-800/50 rounded-xl"></div>
+    <div class="flex gap-4 mt-6">
+      <button onclick="closeInventoryModal()" class="flex-1 bg-gray-600 hover:bg-gray-700 px-6 py-3 rounded-xl font-bold transition">Close</button>
+    </div>
+  </div>
+</dialog>
+
+</body>
+</html>
