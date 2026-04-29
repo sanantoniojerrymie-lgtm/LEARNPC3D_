@@ -129,13 +129,20 @@ nav.container {
 
 .product-info {
   padding: 20px;
-  height: 134px;
+  min-height: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-title {
   font-size: 1.2em;
   margin: 0 0 10px;
   color: #333;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .dark .product-title {
@@ -314,7 +321,6 @@ nav.container {
 
 .container {
   max-width: 1400px;
-  max-height: 1900px;
   margin: 0 auto;
   padding: 0 20px;
 }
