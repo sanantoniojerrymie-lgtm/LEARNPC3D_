@@ -27,22 +27,48 @@ const productData = {
     title: 'Lexar NM610 Pro 1TB M.2 NVMe',
     specs: { Capacity: '1TB', Interface: 'PCIe 3.0 x4 NVMe', 'Read Speed': '3300MB/s', Form: 'M.2 2280', Warranty: '5 years' }
   },
-  'samsung-970': {
-    image: 'IMG/rtx-series.png',
-    title: 'Samsung 970 Evo Plus 500GB NVMe',
-    specs: { Capacity: '500GB', Interface: 'PCIe 3.0 x4 NVMe', 'Read Speed': '3500MB/s', Form: 'M.2 2280', Warranty: '5 years' }
-  },
-  'crucial-p3': {
-    image: 'IMG/ssd_drive_img1.png',
-    title: 'Crucial P3 Plus 500GB PCIe 4.0',
-    specs: { Capacity: '500GB', Interface: 'PCIe 4.0 x4 NVMe', 'Read Speed': '5000MB/s', Form: 'M.2 2280', Warranty: '5 years' }
+
+  'Darkflash GP650 650W 80+': {
+    image: 'IMGES-MARKET/BRAT.webp',
+    title: 'Darkflash GP650 650W 80+ ',
+    specs: { 
+      Capacity: '500GB',
+       Interface: 'PCIe 3.0 x4 NVMe',
+        'Read Speed': '3500MB/s',
+         Form: 'M.2 2280',
+          Warranty: '5 years' }
+
   },
 
-  // what this
-  'wd-green-m2': {
-    image: 'IMAGES-MARKET/dot.webp',
-    title: 'Ryzen 5 5600X',
-    specs: { Capacity: '240GB', Interface: 'SATA', 'Read Speed': '545MB/s', Form: 'M.2 2242/2280', Warranty: '3 years' }
+// Deleted
+
+  'Darkflash GP650 650W 80+ ': {
+    image: 'IMGES-MARKET/BRAT.webp', 
+    title: 'Darkflash GP650 650W 80+ ',
+    specs: { 
+
+    Capacity: '500GB',
+    Interface: 'PCIe 4.0 x4 NVMe',
+    'Read Speed': '5000MB/s',
+    Form: 'M.2 2280',
+    Warranty: '5 years' }
+  },
+
+  // memory
+  'Memory': {
+    image: 'IMAGES-MARKET/hek.webp',
+    title: 'Klevv Bolt X 16GB',
+    specs: { Capacity: 
+
+      '16GB Kit (2 x 8GB)',
+      'Type': '288 Pin DDR4 Unbuffered DIMM for Desktop PCs',
+      'Frequency': '3200MHz',
+      'Speed': 'PC4-25600',
+      'CL Value': '16-18-18-38',
+      'Operating Voltage': '1.35V',
+      'Intel Support': 'Intel XMP 2.0. Intel 400 Series, Sky-lake, Kaby-lake, Coffee-lake, Coffee-lake-R, Comet-lake and newer processors',
+      'AMD Support': 'AMD Ryzen 3000, Ryzen 4000, Ryzen 5000 and newer processors',
+        }
   },
 
 
