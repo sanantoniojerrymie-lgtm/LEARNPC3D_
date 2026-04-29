@@ -30,6 +30,16 @@
       🖥️
     </div>
         
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Open menu">☰</button>
+        <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+        <nav class="mobile-nav" id="mobile-nav">
+            <a href="FAQs.html" class="faqs-btn">FAQs</a>
+            <a href="inventory.html" class="inventory-btn">Components</a>
+            <a href="set-ups.html" class="set-ups-btn">Set-ups</a>
+            <a href="about.html" class="about-btn">About</a>
+            <a href="mm.html" class="market-btn">Market</a>
+        </nav>
+
         <div class="top-nav">
             <a href="FAQs.html" class="faqs-btn">FAQs</a>
             <a href="inventory.html" class="inventory-btn">Components</a>
@@ -94,5 +104,32 @@ Overall, a computer is an essential tool in modern society. Its main purpose is 
     <link rel="stylesheet" href="./css/floating-bubble.css">
     <script src="./js/floating-bubble.js"></script>
     <script src="./js/homepage.js"></script>
+    <script>
+        (function() {
+            const toggle = document.getElementById('mobile-nav-toggle');
+            const nav = document.getElementById('mobile-nav');
+            const overlay = document.getElementById('mobile-nav-overlay');
+            if (!toggle || !nav || !overlay) return;
+            function openNav() {
+                nav.classList.add('open');
+                overlay.classList.add('open');
+                toggle.setAttribute('aria-label', 'Close menu');
+                toggle.textContent = '✕';
+            }
+            function closeNav() {
+                nav.classList.remove('open');
+                overlay.classList.remove('open');
+                toggle.setAttribute('aria-label', 'Open menu');
+                toggle.textContent = '☰';
+            }
+            toggle.addEventListener('click', function() {
+                if (nav.classList.contains('open')) closeNav(); else openNav();
+            });
+            overlay.addEventListener('click', closeNav);
+            nav.querySelectorAll('a').forEach(function(link) {
+                link.addEventListener('click', closeNav);
+            });
+        })();
+    </script>
 </body>
 </html>

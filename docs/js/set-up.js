@@ -27,7 +27,7 @@ var arr = [
       ram: "Lexar Thor 8GB DDR4 3600MHz CL18 Intel XMP 2.0 Gaming Desktop Memory",
       storage: "Adata Legend 710 512GB PCIE Gen3 X4 M.2 2280 Internal SSD",
       psu: "MSI MAG A500N-H 500W 1200mm Non Modula",
-      use: "linked to https://www.pcworth.com/diy-builder"
+      use: "https://ecommerce.datablitz.com.ph/products/alpha-ruby-white-desktop-gaming-pc-amd-ryzen-5-5500-8gb-ram-512gb-ssd-rtx-3050-windows-11-pro?_pos=2&_sid=8df9652dd&_ss=recommendations"
     },
     model: "IMAGES-set-up/midrangeinside.webp"
   },
@@ -43,7 +43,7 @@ var arr = [
       ram: "G.Skill Flare X5 16GB (16GBx1) DDR5 Desktop",
       storage: " Patriot P300 1TB M.2 2280 PCIe Gen3 x4 SSD",
       psu: "Sama G750 750W 80+ Gold ATX 3.1 PCIe 5.1 Ready Fully Modular",
-      use: "4K gaming, 3D rendering, professional workloads"
+      use: "https://ecommerce.datablitz.com.ph/products/aurora-spectra-white-desktop-gaming-pc-amd-ryzen-7-7700-16gb-ram-1tb-ssd-rx-9060-xt-windows-11-pro?_pos=4&_sid=b9f3adccb&_ss="
 
     },
     model: "IMAGES-set-up/pwede.webp"

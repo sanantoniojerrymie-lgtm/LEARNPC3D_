@@ -38,11 +38,17 @@ const productData = {
     specs: { Capacity: '500GB', Interface: 'PCIe 4.0 x4 NVMe', 'Read Speed': '5000MB/s', Form: 'M.2 2280', Warranty: '5 years' }
   },
 
-  // what this
-  'wd-green-m2': {
-    image: 'IMAGES-MARKET/dot.webp',
-    title: 'Ryzen 5 5600X',
-    specs: { Capacity: '240GB', Interface: 'SATA', 'Read Speed': '545MB/s', Form: 'M.2 2242/2280', Warranty: '3 years' }
+  // memory
+  'Memory': {
+    image: 'IMAGES-MARKET/hek.webp',
+    title: 'Klevv Bolt X 16GB',
+
+    specs: { 
+      Capacity: '16GB Kit (2 x 8GB)',
+       Interface: 'SATA',
+        'Read Speed': '545MB/s',
+         Form: 'M.2 2242/2280',
+          Warranty: '3 years' }
   },
 
 

@@ -82,7 +82,7 @@ nav.container {
   width: 100%;
 
   /* Height: fixed card image height */
-  height: cover; /* Maintains aspect ratio, can also set a fixed height like 200px */
+  height: fill; /* Maintains aspect ratio, can also set a fixed height like 200px */
 
   /*
     object-fit options:
@@ -92,7 +92,7 @@ nav.container {
     - none     : original size, may overflow
     - scale-down : like contain or none, whichever is smaller
   */
-  object-fit: cover;
+  object-fit: fill;
 
   /* Optional: smooth zoom on hover (paired with .product-card:hover .product-image below) */
   transition: transform 0.4s ease, filter 0.4s ease;

@@ -26,8 +26,8 @@ var arr = [
       gpu: " Gigabyte GeForce RTX 3050 Windforce V2 6GB GDDR6",
       ram: "Lexar Thor 8GB DDR4 3600MHz CL18 Intel XMP 2.0 Gaming Desktop Memory",
       storage: "Adata Legend 710 512GB PCIE Gen3 X4 M.2 2280 Internal SSD",
-      psu: "MSI MAG A500N-H 500W 1200mm Non Modula",
-      use: "1080p gaming, video editing, streaming"
+      psu: "MSI MAG A500N-H 500W 1200mm Non Modular",
+      use: "https://ecommerce.datablitz.com.ph/products/alpha-ruby-white-desktop-gaming-pc-amd-ryzen-5-5500-8gb-ram-512gb-ssd-rtx-3050-windows-11-pro?_pos=2&_sid=8df9652dd&_ss="
     },
     model: "IMAGES-set-up/midrangeinside.webp"
   },
@@ -43,7 +43,7 @@ var arr = [
       ram: "G.Skill Flare X5 16GB (16GBx1) DDR5 Desktop",
       storage: " Patriot P300 1TB M.2 2280 PCIe Gen3 x4 SSD",
       psu: "Sama G750 750W 80+ Gold ATX 3.1 PCIe 5.1 Ready Fully Modular",
-      use: "4K gaming, 3D rendering, professional workloads"
+      use: "https://ecommerce.datablitz.com.ph/products/aurora-spectra-white-desktop-gaming-pc-amd-ryzen-7-7700-16gb-ram-1tb-ssd-rx-9060-xt-windows-11-pro?_pos=4&_sid=b9f3adccb&_ss=r"
 
     },
     model: "IMAGES-set-up/pwede.webp"
@@ -60,7 +60,7 @@ var arr = [
       ram: "T-Force Delta TUF Gaming Alliance RGB 16GB (2X8GB) DDR4",
       storage: "Patriot P210 512GB 2.5 SSD SATA III",
       psu: "DeepCool PF500X 500W Cybenetics 80+ Bronze ATX 2.52",
-      use: "Entry-level 1080p gaming, content creation"
+      use: "https://ecommerce.datablitz.com.ph/products/alpha-eris-tg-desktop-black-gaming-pc-amd-ryzen-5-5500-16gb-ram-512gb-ssd-rtx-3050-windows-11-pro?_pos=5&_sid=4f3396f3d&_ss=r"
     },
     model: "IMAGES-set-up/budget.webp"
   },
@@ -75,9 +75,9 @@ var arr = [
       ram: "128 GB DDR5-5600 MT/s ECC (4 x 32 GB)",
       storage: "1 TB HP Z Turbo Drive PCIe® Gen4 TLC SED M.2 SSD",
       psu: "1125 W internal power supply, up to 90% efficiency, active PFC",
-      use: "Video editing, 3D modeling, streaming"
+      use: "https://www.hp.com/ph-en/products/workstations/product-details/2103595428"
     },
-    model: "/IMG/rtx-series.png"
+    model: "IMAGES-set-up/haha.png"
   },
   {
     name: "Optima X5M Gaming PC",
@@ -91,6 +91,7 @@ var arr = [
       storage: "Hiksemi Wave(P) 1024GB PCIe 3.0 NVMe M.2 3D NAND SSD",
       psu: "DeepCool PN850M WH 850W 80+ Gold Native ATX 3.1 Modular (White)",
       motherboard: "Gigabyte X870M Aorus Elite WiFi7 Ice DDR5 AMD Gaming Motherboard",
+      use: "https://ecommerce.datablitz.com.ph/products/optima-x5m-white-desktop-gaming-pc-amd-ryzen-7-7800x3d-32gb-ram-1tb-ssd-rtx-5070-windows-11-pro?_pos=1&_sid=6f7a5a698&_ss=r",
       
     },
     model: "./IMAGES-set-up/loop.webp"
