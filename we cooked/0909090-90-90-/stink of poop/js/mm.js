@@ -18,9 +18,17 @@ const productData = {
     specs: { Capacity: '240GB', Interface: 'SATA III', 'Read Speed': '545MB/s', Form: '2.5-inch', Warranty: '3 years' }
   },
   'team-gx2': {
-    image: 'IMG/ssd_drive_img0.jpg',
+    image: 'IMGES-MARKET/keyboard.webp',
     title: 'Team Group GX2 SATA 2.5"',
-    specs: { Capacity: '512GB', Interface: 'SATA III', 'Read Speed': '520MB/s', Form: '2.5-inch', Warranty: '3 years' }
+    specs: { 
+      Capacity: 
+      '512GB',
+       Interface: 'SATA III',
+        'Read Speed': '520MB/s',
+         Form: '2.5-inch',
+          Warranty: '3 years' }
+  
+  
   },
   'Nvision N2455PRO-B 100Hz IPS Panel 23.8" Monitor Black': {
     image: 'IMAGES-MARKET/mek.webp',
