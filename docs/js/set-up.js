@@ -27,7 +27,7 @@ var arr = [
       ram: "Lexar Thor 8GB DDR4 3600MHz CL18 Intel XMP 2.0 Gaming Desktop Memory",
       storage: "Adata Legend 710 512GB PCIE Gen3 X4 M.2 2280 Internal SSD",
       psu: "MSI MAG A500N-H 500W 1200mm Non Modula",
-      use: "1080p gaming, video editing, streaming"
+      use: "linked to https://www.pcworth.com/diy-builder"
     },
     model: "IMAGES-set-up/midrangeinside.webp"
   },
