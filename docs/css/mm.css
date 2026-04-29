@@ -82,7 +82,7 @@ nav.container {
   width: 100%;
 
   /* Height: fixed card image height */
-  height: cover; /* Maintains aspect ratio, can also set a fixed height like 200px */
+  height: 200px; /* Fixed card image height */
 
   /*
     object-fit options:
